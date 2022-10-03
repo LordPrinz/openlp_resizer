@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "OpenLP Resizer",
+    "version": "1.0",
+    "author": "LordPrinz, Dzajlopment",
+
+    "description": "Makes previous and next buttons bigger.",
+    "content_scripts": [{
+        "matches": ["http://localhost/"],
+        "js": ["openLP.js"]
+    }]
+}
